@@ -9,17 +9,20 @@ Description: Major Plugin for the ElderCraft server.
 
 Commands:
 
-/n help
-/n create [name]
-/n delete [name]
-/n join [name]
-/n leave
-/n colour [name] [colour]
-/n check <player>
-/n list
-/n setspawn <name>
-/n spawn <name>
-/n kick <player>
+- n help
+- n reload
+- n tempdisable
+- n disable
+- n create [name]
+- n delete [name]
+- n join [name]
+- n leave
+- n colour [name] [colour]
+- n check [player]
+- n list
+- n setspawn [name]
+- n spawn [name]
+- n kick [player]
 
 Permission Nodes:
 
