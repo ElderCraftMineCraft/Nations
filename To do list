@@ -1,0 +1,28 @@
+"Nations" Plugin planning and ideas
+
+- Admins can create groups /
+- Players can join groups /
+- PEX and BPermissions support /
+- Role-playable ranks or names
+- Claim areas for groups
+- Protect areas for groups
+- Autoclaim when walk over
+- Autoclaim mode on/off
+- Individual perms for autoclaim
+- Perms for group editing /
+- Store data in config database /
+- Simple config for server owner /
+- Config contains toggle-able features /
+- Also contains full on/off toggle /
+- When join groups, name colour change /
+- Alternatively, shows Nation before Name /
+- Cyan join message, Red Leave message
+- Command alias /n /
+- Separate reload function
+- Private group chat
+- Admins exempt from group restrictions /
+- /n [nation] [colour] options /
+- Help restricted to certain users /
+- Nation individual spawns /
+- Respawn in Nation spawn
+- Warning when players cross territories
