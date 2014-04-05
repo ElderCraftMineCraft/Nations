@@ -5,7 +5,9 @@ Name: Nations
 
 Creator: Templar3lf
 
-Description: Major Plugin for the ElderCraft server.
+Server: ElderCraft
+
+Description: Grouping plugin for the Minecraft server of ElderCraft. For more information please visit our website at www.eldercraft.comxa.com.
 
 Commands:
 
