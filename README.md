@@ -12,110 +12,195 @@ Server: ElderCraft
 Description: Nation Plugin for ElderCraft Minecraft server. For more information please visit our website at www.eldercraft.comxa.com.
 
 commands:
+
 ncreate:
+
 description: Creates a Nation.
+
 usage: /ncreate <nation name>
+
 permission: nations.create
 
+
 ndelete:
+
 description: Deletes your current Nation.
+
 usage: /ndelete
+
 permission: nations.admin.delete
 
+
 nname:
+
 description: Changes your Nation name.
+
 usage: /nname [nation name]
+
 permission: nations.admin.changename
 
+
 npromote:
+
 description: Promotes a user within your Nation.
+
 usage: /npromote <player name>
+
 permission: nations.admin.promote
 
+
 ndemote:
+
 description: Demotes a user within your Nation.
+
 usage: /ndemote <player name>
+
 permission: nations.admin.demote
 
+
 nlist:
+
 description: Lists all current Nations.
+
 usage: /nlist
+
 permission: nations.list
 
+
 nshow:
+
 description: Shows info for a Nation.
+
 usage: /nshow <nation name>
+
 permission: nations.show
 
+
 ncolour:
+
 description: Changes your Nations colour.
+
 usage: /ncolour <colour>
+
 permission: nations.admin.colour
+
 
 ncolor:
+
 description: Alias for ncolour.
+
 usage: /ncolour <color>
+
 permission: nations.admin.colour
 
+
 nkick:
+
 description: Kicks a player from your Nation.
+
 usage: /nkick <player name> [reason]
+
 permission: nations.admin.kick
 
+
 ninherit:
+
 description: Gives control of the Nation to the specified user.
+
 usage: /ninherit <player name>
+
 permission: nations.admin.inherit
 
+
 njoin:
+
 description: Joins the Nation you specify.
+
 usage: /njoin <nation name>
+
 permission: nations.join
 
+
 nleave:
+
 description: Leaves the Nation you are in.
+
 usage: /nleave
+
 permission: nations.leave
 
+
 nrecruit:
+
 description: Sets the Nation recruitment status.
+
 usage: /nrecruit <true|false>
+
 permission: nations.admin.recruit
 
+
 nsetspawn:
+
 description: Sets the Nation Spawnpoint.
+
 usage: /nsetspawn
+
 permission: nations.admin.setspawn
 
+
 nspawn:
+
 description: Goes to your Nations Spawnpoint.
+
 usage: /nspawn
+
 permission: nations.spawn
 
+
 nchat:
+
 description: Enables and disabled Nation chat.
+
 usage: /nchat
+
 permission: nations.chat
 
+
 nclaim:
+
 description: Adds a chunk to the Nation claimed land.
+
 usage: /nclaim
+
 permission: nations.admin.claim
 
+
 nabandon:
+
 description: Removes a chunk from the Nation claimed land.
+
 usage: /nabandon
+
 permission: nations.admin.abandon
 
+
 nstatus:
+
 description: Sets the Nation aggression status.
+
 usage: /nstatus <aggressive|peaceful>
+
 permission: nations.status
 
+
 nmessage:
+
 description: Sets the Nation land enter message.
+
 usage: /nmessage <message>
+
 permission: nations.admin.message
+
 
 I'd suggest giving lowest level players the nations.admin.*, as these commands can only be executed when the player is a Nation Admin or Owner, and should not depend on Server rank.
 
